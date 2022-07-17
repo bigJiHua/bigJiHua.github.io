@@ -67,11 +67,11 @@
 	.main-menu .navbar-header .navbar-toggle{
 		display:inline-block;
 		z-index:20;
-		border:1px solid #9147ff;
+		/* border:1px solid #9147ff; */
 		float:none;
 		margin:0px 0px 0px 0px;
 		border-radius:0px;
-		background:#9147ff;
+		background:#83b2ce;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle .icon-bar{

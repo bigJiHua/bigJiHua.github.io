@@ -482,10 +482,7 @@ img{
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 99;
-    border-right: 1px solid #ececec;
     padding: 13px 0;
-    padding-right: 24px;
 }
 
 /*** 
@@ -582,15 +579,15 @@ img{
 }
 
 .card-home .author h3 {
+	font-size: 3.8rem;
 	font-weight: 500;
-	color: #222;
+	color: white;
 }
-
 .card-home .author .designation {
 	font-family: 'Poppins', sans-serif;
-	font-size: 15px;
-	margin-bottom: 25px;
-	color: #222;
+	font-size: 2.6rem;
+	margin: 25px 0;
+	color: white;
 }
 
 .card-home .text {
@@ -600,11 +597,14 @@ img{
 	margin-bottom: 25px;
 	color: #222;
 }
-
-.card-home .link-btn {
-	margin-bottom: 20px;
+@media only screen and (min-width: 755px) {
+	.link-btn {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,0);
+		bottom: 15%;
+	}
 }
-
 .card-home .theme-btn {
 	margin: 7px 10px;
 	min-width: 180px;
